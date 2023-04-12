@@ -156,17 +156,17 @@ img.resize2 {
   <h4 class="w3-center">Back Panel</h4>
   <img src="res\IMG_0033.jpeg" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">3 Screws, Mechanical Switch, Spinner, and Back Speaker Cover Removed</h4>
-  <img src="res\IMG_0150.jpg" alt="Product - Kids Remote" class="center resize">
+  <img src="res\IMG_0150.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">3 PCB Screws Removed</h4>
-  <img src="res\IMG_0151.jpg" alt="Product - Kids Remote" class="center resize">
+  <img src="res\IMG_0151.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">Battery Connection Points Desoldered to Remove PCB and Speaker</h4>
   <img src="res\IMG_0095.jpeg" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">Back Panel with Desoldered Battery Connection Point, Removed Nut, and White Plastic Switch Cover</h4>
-  <img src="res\IMG_0156.jpg" alt="Product - Kids Remote" class="center resize">
+  <img src="res\IMG_0156.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">PCB and Speaker Front</h4>
-  <img src="res\IMG_0154.jpg" alt="Product - Kids Remote" class="center resize">
+  <img src="res\IMG_0154.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center">PCB and Speaker Back</h4>
-  <img src="res\IMG_0155.jpg" alt="Product - Kids Remote" class="center resize">
+  <img src="res\IMG_0155.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center"><u>Dissassembly Notes</u></h4>
   <p class="w3-center w3-large">The pictures above show the disassembly of the product, which is fairly simple. Most of the parts come apart by unscrewing things, but when the PCB needed to be removed from the back plate teh B+ adn B- terminals on the PCB had to be desoldered from the integrated battery pack. Additionally, the platic switch from the back plate that was removed is an unused switch. It seems to have solder traces so maybe at one point it was used, but in this version of the product it has no use and the button cannot be pressed.</p>
 </div>
@@ -174,7 +174,7 @@ img.resize2 {
 <div class="w3-container" style="padding:64px 16px" id="operation">
   <h3 class="w3-center">Product Operation</h3>
   <h4 class="w3-center">Flow Diagram for Total Operation of Product</h4>
-  <img src="res\es4.jpg" alt="Product - Kids Remote" class="resize2">
+  <img src="res\es4.JPG" alt="Product - Kids Remote" class="resize2">
   <p class="w3-center w3-large">The Flow Chart above details the workings of the entire product. There are 3 buttons that affect the output of the product. The product is in a sleep mode until a button is pressed. Each of the
                                 three buttons link to a separate Finite State Machine with four options that rotate in order. After a button is pressed the next time the button is pressed it plays the next associated voiceline
                                 that has a specific LED blinking pattern as well. The led blinks in multiple colors depending on the voiceline playing.</p>
@@ -223,7 +223,7 @@ img.resize2 {
       </video>
 <h4 class="w3-center"><u>Button Timing Diagram</u></h4>
 <video muted class="center" controls="controls" width="930" height="600" name="Video Name">
-  <source src="res/vid2/IMG_0216.MOV">
+  <source src="res/vid2/IMG_0216.mov">
 </video>
 <p class="w3-center w3-large">This shows that the buttons are normally low and when the button is pressed the signal is changed to high.</p>
 <h4 class="w3-center"><u>Serial Communication Timing Diagrams</u></h4>
@@ -236,8 +236,8 @@ img.resize2 {
 <h4 class="w3-center">LED Input</h4>
 <img src="res\vid2\IMG_0205_2.jpg" alt="Product - Kids Remote" class="center resize">
 <h4 class="w3-center">Speaker Output</h4>
-<img src="res\vid2\IMG_0214.jpg" alt="Product - Kids Remote" class="center resize">
-<img src="res\vid2\IMG_0215.jpg" alt="Product - Kids Remote" class="center resize">
+<img src="res\vid2\IMG_0214.JPG" alt="Product - Kids Remote" class="center resize">
+<img src="res\vid2\IMG_0215.JPG" alt="Product - Kids Remote" class="center resize">
 <p class="w3-center w3-large">These were tested by using the testpoints on the PCB and the outcomes were expected. There are two types of data, a digital signal used for the clock and serial data and then an analog signal used for the speaker data.</p>
 
 </div>
@@ -245,7 +245,7 @@ img.resize2 {
 <div class="w3-container" style="padding:64px 16px" id="analysis">
 <h3 class="w3-center">Product Analysis</h3>
 <h4 class="w3-center"><u>High Level Block Diagram</u></h4>
-<img src="res\vid2\test.png" alt="Product - Kids Remote" class="center resize">
+<img src="res\vid2\test.PNG" alt="Product - Kids Remote" class="center resize">
 <p class="w3-center w3-large">The high level diagram shows the main processor is U1, which interacts with U2 the Flash Memory. It reads from the memoryu and uses a clock signal. The LED and speaker will change their outputs according to the signals sent from U1 and U1 receives inputs from the three buttons.</p>
 <h4 class="w3-center"><u>Detailed Schematic</u></h4>
 <img src="res\schem5.jpg" alt="Product - Kids Remote" class="center3">
@@ -655,8 +655,8 @@ img.resize2 {
 
 <h4 class="w3-center"><u>Processor Details</u></h4>
 <p class="w3-center w3-large">The KV25V80066 is the part that is labeled U2 on the PCB. It is a 2.3V-3.6V Serial Multi I/O CMOS Flash Memory chip. The memory can be read and written to and it has 8 pins. The pinouts and block diagram are shown below.</p>
-<img src="res\U2_Block_Diagram.jpg" alt="U2 Block Diagram" class="center">
-<img src="res\pinout.jpg" alt="U2 Pinout" class="center">
+<img src="res\U2_Block_Diagram.JPG" alt="U2 Block Diagram" class="center">
+<img src="res\pinout.JPG" alt="U2 Pinout" class="center">
 <p class="w3-center w3-large">The CS# on the pinout is the chip select. The SO/SIO1 is the serial data output and the WP# is the Write Protection which is active low. The GND pin is ground and the VCC is the power supply. The NC means that pin has no connection and the SCLK is the clock input for the serial communication. The SI/SIO0 is the Serial Data Input pin.</p>
 <p class="w3-center w3-large"><br>U2 Datasheet: <a href="res/U2.pdf">KV25V80066</a>
 </div>
@@ -665,13 +665,13 @@ img.resize2 {
   <h3 class="w3-center">Product Reassembly</h3>
   <p class="w3-center">To put the product back together, the battery connections had to be resoldered, and the product needed to be screwed back together. During testing of the product the spearker wires also broke and had to be resoldered to the PCB. Below are the final few images of the reconstruction after the front plastic face was screwed back together and the PCB and speaker were reinstalled into the back plastic face.</p>
   <h4 class="w3-center">PCB Screw Insertion</h4>
-  <img src="res\vid3\IMG_0224.jpg" alt="U2 Pinout" class="center resize">
+  <img src="res\vid3\IMG_0224.JPG" alt="U2 Pinout" class="center resize">
   <h4 class="w3-center">Spinner Reinstallation</h4>
-  <img src="res\vid3\IMG_0225.jpg" alt="U2 Pinout" class="center resize">
+  <img src="res\vid3\IMG_0225.JPG" alt="U2 Pinout" class="center resize">
   <h4 class="w3-center">Two Halves Separated</h4>
-  <img src="res\vid3\IMG_0226.jpg" alt="U2 Pinout" class="center resize">
+  <img src="res\vid3\IMG_0226.JPG" alt="U2 Pinout" class="center resize">
   <h4 class="w3-center">Front and Back Face Screwed Together</h4>
-  <img src="res\vid3\IMG_0227.jpg" alt="U2 Pinout" class="center resize">
+  <img src="res\vid3\IMG_0227.JPG" alt="U2 Pinout" class="center resize">
   <h4 class="w3-center">Video of Inserting Batteries and Verifying All Three Buttons Work and Utilize the LED and Speaker</h4>
   <video class="center" controls="controls" width="930" height="600" name="Video Name">
     <source src="res/vid3/IMG_0228.MOV">
