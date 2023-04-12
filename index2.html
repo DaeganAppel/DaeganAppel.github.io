@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dissection Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+  .tb { border-collapse: collapse; width:300px; }
+  .tb th, .tb td { padding: 5px; border: solid 1px #777; }
+  .tb th { background-color: lightblue; }
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.center3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+img.resize {
+    width:540px; /* you can use % */
+    height: auto;
+}
+img.resize3 {
+    width:400px; /* you can use % */
+    height: auto;
+}
+img.resize2 {
+  display: block;
+    width:1600px; /* you can use % */
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.blank{
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Daegan Appel Dissection Project</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#intro" class="w3-bar-item w3-button"> Introduction</a>
+      <a href="#product" class="w3-bar-item w3-button"> Product Market and Retail Info</a>
+      <a href="#photo" class="w3-bar-item w3-button"> Dissection Photo Journal</a>
+      <a href="#operation" class="w3-bar-item w3-button"> Product Operation</a>
+      <a href="#analysis" class="w3-bar-item w3-button"> Product Analysis</a>
+      <a href="#reassembly" class="w3-bar-item w3-button"> Product Reassembly</a>
+      <a href="#lessons" class="w3-bar-item w3-button"> Lessons Learned</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+  <div class="w3-container" style="padding:128px 16px" id="home">
+  <h1 class="w3-center">Fisher-Price Laugh & Learn Stream & Learn Remote</h1>
+  <img src="res\laugh.jpg" alt="Product - Kids Remote" class="center resize">
+</div>
+<!-- About Section -->
+<div class="w3-container" style="padding:64px 16px" id="intro">
+  <h3 class="w3-center">Introduction</h3>
+  <img src="res\Daegan.jpg" alt="Daegan" class="center resize3">
+  <p class="w3-center w3-large">My name is Daegan Appel and I am a Senior in Computer Engineering at Mississippi State University. This website is used to record my dissection project for the class
+                                I chose to dissect a Fisher-Price Laugh & Learn Stream & Learn remote because it is produced by the 3rd largest toy manufactuerer in children's electronics. The remote is battery
+                                powered allowing for the reasselmby verification to not have to be plugged into any external power sources. It features 20+ songs/sounds to teach children the alphabet, colors, and counting.</p>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:64px 0px" id="product">
+  <h3 class="w3-center">Product Market and Retail Info</h3>
+  <h4 class="w3-center"><u>Product History</u></h4>
+  <p class="w3-center w3-large">Fisher Price is a company that sells products marked towards children, usually educational toys. Fisher Price was created by Herman Fisher and Irving Price in 1930.
+                                They are founded on the prnciples that they created good quality products that are durable and would be good for children to play with. They continued to create children's electronics and in
+                                they have become one of the largest electronics manufactureres for young children. The Fisher-Price Laugh & Learn Stream & Learn Remote was created to help children learn the basics of counting, the ABCs, and colors.
+                                It has a few mechanical aspects to help children with their motor skills as well.</p>
+
+  <h4 class="w3-center"><u>Product Codes</u></h4>
+  <p class="w3-center w3-large">UPC Code: 1 94735 04345 3 <br>Links: <a href="https://www.barcodelookup.com/194735043453">Barcode Lookup</a>
+  <a href="https://upcitemdb.com/upc/194735043453">upcitembd</a></p>
+
+  <h4 class="w3-center"><u>Retail Prices</u></h4>
+  <p class="w3-center w3-large"><a href="https://www.target.com/p/fisher-price-laugh-38-learn-stream-38-learn-remote/-/A-83349987?clkid=e7922809N6ed811edbfe1d5352c979019&lnm=201333&afid=Barcode%20Lookup&ref=tgt_adv_xasd0002">Target</a> $6.79
+  <br><a href="https://www.amazon.com/dp/B09BDCL16Q?tag=barcodelookup.com-20&linkCode=osi&th=1&psc=1">Amazon</a> $9.99 on sale for $6.79
+  <br><a href="https://www.walmart.com/ip/Fisher-Price-Laugh-Learn-Stream-Learn-Remote-electronic-pretend-TV-remote-toy-with-lights-and-educational-content-for-infants-and-toddlers/724919200?irgwc=1&sourceid=imp_SamT%3AfRNZxyNUMGQwCyyPzGZUkARuLTEE30dx80&veh=aff&wmlspartner=imp_120157&clickid=SamT%3AfRNZxyNUMGQwCyyPzGZUkARuLTEE30dx80&sharedid=&affiliates_ad_id=1285192&campaign_id=9383">Walmart</a> $20.89 (Has been incresing from ~$10)
+  <br><a href="https://www.kohls.com/product/prd-5566774/fisher-price-laugh-learn-stream-learn-remote-toy.jsp?skuid=18772388&clickId=UHixiQQyYxyNW8vwyQRPCwB9UkARuIy4E30dx80&irgwc=1&utm_campaign=380478&utm_source=120157&cid=affiliate-_-120157&utm_content=PRODUCT_CATALOG&utm_medium=affiliate">KOHL's</a> $9.99
+  </p>
+
+  <h4 class="w3-center"><u>Alternative Products</u></h4>
+  <p class="w3-center w3-large"> Fisher-Price sells multile remote control products that should be considered as altenatives to this prodcut. The other similar items are the following: <br>1:  <a href="https://shop.mattel.com/products/fisher-price-laugh-learn-puppys-remote-cmw48">Fisher-Price Laugh & Learn Puppy's Remote With Light-Up Screen</a>
+  <br>2:  <a href="https://www.walmart.com/ip/Fisher-Price-Sis-Pretend-TV-Remote-Baby-Toy-with-Lights-Music-and-Learning-Songs-Fine-Motor-Toy/46239158?wmlspartner=wlpa&selectedSellerId=0&wl13=5703&adid=2222222223746239158_143191300943_19306515553&wl0=&wl1=g&wl2=c&wl3=641918138095&wl4=aud-430887228898:pla-838710496319&wl5=9012726&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=46239158&veh=sem&gclid=Cj0KCQjw2cWgBhDYARIsALggUhpAdn_8NJ2Y0Xk-qV0DRRXVj46wBkZ279y-DD1tif-bc4CAMy2eLgEaApYjEALw_wcB">Fisher-Price Sis’ Pretend TV Remote Baby Toy with Lights Music and Learning Songs</a>
+  <br>3:  <a href="https://www.walmart.com/ip/Fisher-Price-Click-N-Learn-Remote/19593758">Fisher-Price Click 'N Learn Remote</a>
+  <br><br>
+  Other brands such as VTech and LeapFrog also sell remote alternatives. These are listed Below: <br>1: <a href="https://www.vtechkids.com/product/detail/13537/Click_and_Count_Remote">Click & Count Remote™</a>
+  <br>2: <a href="https://www.walmart.com/ip/LeapFrog-Scout-s-Learning-Lights-Remote-Deluxe-Role-Play-Toy-For-Kids/347312434">LeapFrog Scout's Learning Lights Remote Deluxe, Role-Play Toy For Kids</a>
+  </p>
+
+
+</div>
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:64px 16px" id="photo">
+  <h3 class="w3-center">Dissection Photo Journal</h3>
+  <h4 class="w3-center">Retail Packaging Front View</h4>
+  <img src="res\IMG_0024.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Retail Packaging Back View</h4>
+  <img src="res\IMG_0025.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Isolated Product Front View</h4>
+  <img src="res\IMG_0026.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Isolated Product Back View</h4>
+  <img src="res\IMG_0027.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Product Back With Battery Cover Removed</h4>
+  <img src="res\IMG_0028.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Battery Cover Insert with 1 Screw Removed</h4>
+  <img src="res\IMG_0029.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">3 Batteries Removed</h4>
+  <img src="res\IMG_0148.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">4 Back Screws Removed</h4>
+  <img src="res\IMG_0149.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Separated Front and Back Panels</h4>
+  <img src="res\IMG_0034.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Front Panel</h4>
+  <img src="res\IMG_0032.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Back Panel</h4>
+  <img src="res\IMG_0033.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">3 Screws, Mechanical Switch, Spinner, and Back Speaker Cover Removed</h4>
+  <img src="res\IMG_0150.jpg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">3 PCB Screws Removed</h4>
+  <img src="res\IMG_0151.jpg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Battery Connection Points Desoldered to Remove PCB and Speaker</h4>
+  <img src="res\IMG_0095.jpeg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">Back Panel with Desoldered Battery Connection Point, Removed Nut, and White Plastic Switch Cover</h4>
+  <img src="res\IMG_0156.jpg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">PCB and Speaker Front</h4>
+  <img src="res\IMG_0154.jpg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center">PCB and Speaker Back</h4>
+  <img src="res\IMG_0155.jpg" alt="Product - Kids Remote" class="center resize">
+  <h4 class="w3-center"><u>Dissassembly Notes</u></h4>
+  <p class="w3-center w3-large">The pictures above show the disassembly of the product, which is fairly simple. Most of the parts come apart by unscrewing things, but when the PCB needed to be removed from the back plate teh B+ adn B- terminals on the PCB had to be desoldered from the integrated battery pack. Additionally, the platic switch from the back plate that was removed is an unused switch. It seems to have solder traces so maybe at one point it was used, but in this version of the product it has no use and the button cannot be pressed.</p>
+</div>
+
+<div class="w3-container" style="padding:64px 16px" id="operation">
+  <h3 class="w3-center">Product Operation</h3>
+  <h4 class="w3-center">Flow Diagram for Total Operation of Product</h4>
+  <img src="res\es4.jpg" alt="Product - Kids Remote" class="resize2">
+  <p class="w3-center w3-large">The Flow Chart above details the workings of the entire product. There are 3 buttons that affect the output of the product. The product is in a sleep mode until a button is pressed. Each of the
+                                three buttons link to a separate Finite State Machine with four options that rotate in order. After a button is pressed the next time the button is pressed it plays the next associated voiceline
+                                that has a specific LED blinking pattern as well. The led blinks in multiple colors depending on the voiceline playing.</p>
+<h4 class="w3-center">Human Machine Interfaces</h4>
+<p class="w3-center w3-large">There are three buttons that can be pressed as shown in the videos below. There are only 12 differnt sounds that I got to play from the remote even though the box states 20+. This may be due to the unused back switch or there may be rare sopunds. I personally do not believe there are rare sounds, becasue the buttons were tested thoroughly and only 12 sounds occured. The other human-machine interface are the three mechanical toys. The blue switch, red spinner, adn green spinner all move, but do not affect the electronic outcomes at all.</p>
+<h4 class="w3-center"><u>ABC Button Test Videos</u></h4>
+  <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+    <source src="res/vid/IMG_0164.MOV">
+  </video>
+  <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+    <source src="res/vid/IMG_0165.MOV">
+  </video>
+  <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+    <source src="res/vid/IMG_0166.MOV">
+  </video>
+  <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+    <source src="res/vid/IMG_0167.MOV">
+  </video>
+
+  <h4 class="w3-center"><u>Color Button Test Videos</u></h4>
+    <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+      <source src="res/vid/IMG_0168.MOV">
+    </video>
+    <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+      <source src="res/vid/IMG_0169.MOV">
+    </video>
+    <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+      <source src="res/vid/IMG_0170.MOV">
+    </video>
+    <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+      <source src="res/vid/IMG_0171.MOV">
+    </video>
+
+    <h4 class="w3-center"><u>Counting Button Test Videos</u></h4>
+      <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+        <source src="res/vid/IMG_0175.MOV">
+      </video>
+      <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+        <source src="res/vid/IMG_0172.MOV">
+      </video>
+      <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+        <source src="res/vid/IMG_0173.MOV">
+      </video>
+      <video class="w3-center" controls="controls" width="930" height="600" name="Video Name">
+        <source src="res/vid/IMG_0174.MOV">
+      </video>
+<h4 class="w3-center"><u>Button Timing Diagram</u></h4>
+<video muted class="center" controls="controls" width="930" height="600" name="Video Name">
+  <source src="res/vid2/IMG_0216.MOV">
+</video>
+<p class="w3-center w3-large">This shows that the buttons are normally low and when the button is pressed the signal is changed to high.</p>
+<h4 class="w3-center"><u>Serial Communication Timing Diagrams</u></h4>
+<h4 class="w3-center">Serial Clock</h4>
+<img src="res\vid2\IMG_0185.jpg" alt="Product - Kids Remote" class="center resize">
+<h4 class="w3-center">Serial Out</h4>
+<img src="res\vid2\IMG_0192_2.jpg" alt="Product - Kids Remote" class="center resize">
+<h4 class="w3-center">Serial In</h4>
+<img src="res\vid2\IMG_0194_2.jpg" alt="Product - Kids Remote" class="center resize">
+<h4 class="w3-center">LED Input</h4>
+<img src="res\vid2\IMG_0205_2.jpg" alt="Product - Kids Remote" class="center resize">
+<h4 class="w3-center">Speaker Output</h4>
+<img src="res\vid2\IMG_0214.jpg" alt="Product - Kids Remote" class="center resize">
+<img src="res\vid2\IMG_0215.jpg" alt="Product - Kids Remote" class="center resize">
+<p class="w3-center w3-large">These were tested by using the testpoints on the PCB and the outcomes were expected. There are two types of data, a digital signal used for the clock and serial data and then an analog signal used for the speaker data.</p>
+
+</div>
+
+<div class="w3-container" style="padding:64px 16px" id="analysis">
+<h3 class="w3-center">Product Analysis</h3>
+<h4 class="w3-center"><u>High Level Block Diagram</u></h4>
+<img src="res\vid2\test.png" alt="Product - Kids Remote" class="center resize">
+<p class="w3-center w3-large">The high level diagram shows the main processor is U1, which interacts with U2 the Flash Memory. It reads from the memoryu and uses a clock signal. The LED and speaker will change their outputs according to the signals sent from U1 and U1 receives inputs from the three buttons.</p>
+<h4 class="w3-center"><u>Detailed Schematic</u></h4>
+<img src="res\schem5.jpg" alt="Product - Kids Remote" class="center3">
+<p class="w3-center w3-large">This is the detailed schematic made in Kicad. Custom footprints were made for U1 adn U2 inside of Kicad. The exact number of pins needed for U1 is unknown since it is under epoxy, but since 23 pins are used it can be asssumed that it at least has 24 pins. There are some capacitor loops that only connect to U1 it seems. Additionaly, there are many traces that go to the unused switch 4 on the PCB.</p>
+<h4 class="w3-center"><u>Operational Values</u></h4>
+<table class="center2 tb">
+            <thead>
+                <th></th>
+                <th>Total Range</th>
+                <th>Normal Value</th>
+                <th>Value When Button Pressed</th>
+                <th>Notes</th>
+            </thead>
+            <tr>
+                <td>Voltage</td>
+                <td>1.9 - 4.25 V</td>
+                <td>4.25 V</td>
+                <td>3.67 V</td>
+                <td>The 1.9 V minimum was tested with a power supply. When the product was in sleep mode the voltage was 4.25 V, and when buttons were pressed the lowest voltage seen was 3.67 V.</td>
+            </tr>
+            <tr>
+                <td>Current</td>
+                <td>0.01 - 0.06 A</td>
+                <td>0.01 A</td>
+                <td>0.06 A</td>
+                <td>The 0.01 Amp minimum was tested with a power supply. When the product was in sleep mode the current was 0.01 A, and when buttons were pressed the highet current seen was 0.06 A.</td>
+            </tr>
+            <tr>
+                <td>Serial Clock Frequency</td>
+                <td>0 - 12.3942 MHz</td>
+                <td>0</td>
+                <td>12.3942 MHz</td>
+                <td>While product is asleep the SCLK is not running, but when a button is pressed it runs at about 12.4 MHz.</td>
+            </tr>
+            <tr>
+                <td>Power Consumption</td>
+                <td>0.0000425 - 0.0002202 kWh </td>
+                <td>0.0000425 kWh</td>
+                <td>0.0002202 kWh</td>
+                <td>While product is asleep there is less pwoer consumned then when the buttons are pressed.</td>
+            </tr>
+            <tr>
+                <td>Battery Lifetime</td>
+                <td>8 - 20 Hours</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>If the buttons are constantly being used the device will lose their charge quicker.</td>
+            </tr>
+</table>
+<p class="w3-center w3-large">This was tested by first seeing the values when the product was powered and then no buttons were pressed and then comparing it to the values when the buttons were pressed, while still being powered by the batteries. Then a DC power supply was used in place of the batteries to test the lower voltage and the current when the buttons were and were not pressed. The lower voltage power did result in a quieter sound from the speaker and the LED was dimmed. The Serial Clock Frequency was measured on an oscilloscope adn then the power consumption was calculated. The Battery Lifetime was determined by comparing it to similar products.</p>
+<h4 class="w3-center"><u>Product Weight Breakdown</u></h4>
+<table class="center2 tb">
+            <thead>
+                <th>Part</th>
+                <th>Weight (grams)</th>
+                <th>Count</th>
+                <th>Notes</th>
+                <th>Total Weight</th>
+            </thead>
+            <tr>
+                <td>Blue Tactile Switch</td>
+                <td>2</td>
+                <td>1</td>
+                <td>This is used as a mechanical switch on the right side of the toy.</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Red Wheel and Screw</td>
+                <td>4</td>
+                <td>1</td>
+                <td>This is used as a spinner on the left side of the toy.</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Pink Plastic and 2 Screws Back Plate</td>
+                <td>4</td>
+                <td>1</td>
+                <td>This is used to hold the bottom speaker in place.</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Pink Plastic and 2 Screws Front Plate</td>
+                <td>6</td>
+                <td>1</td>
+                <td>This is used to hold the front buttons, front face, and green spinner in place.</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Front Black Plastic Plate</td>
+                <td>14</td>
+                <td>1</td>
+                <td>This allows the buttons, green spinner to be held in place.</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>LED Face Covering</td>
+                <td>4</td>
+                <td>1</td>
+                <td>This is used to cover the bright multi-color LED.</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Green Plastic Spinner</td>
+                <td>4</td>
+                <td>1</td>
+                <td>This is used to spin around on the front of the remote.</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>The ABC and Color Buttons w/ Silicone Back Inserts</td>
+                <td>2</td>
+                <td>2</td>
+                <td>These two buttons weighed approximately the same and are used to interact with the PCB setting off the LED and the speaker.</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>The 123 Button w/ Silicone Back Insert</td>
+                <td>3</td>
+                <td>1</td>
+                <td>This button is used to interact with the PCB setting off the LED and the speaker.</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>White Plastic Backplate and 4 Screws</td>
+                <td>32</td>
+                <td>1</td>
+                <td>This plastic is used to hold the batteries, speaker, and the PCB.</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>PCB</td>
+                <td>8</td>
+                <td>1</td>
+                <td>This PCB is used to control all of the electronics. It is powered by 3 batteries, adn includeds a LED, speaker, memory, and a processor.</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Speaker</td>
+                <td>14</td>
+                <td>1</td>
+                <td>This is used to give audio feedback after a button is pressed.</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Total Weight</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>97 grams</td>
+            </tr>
+        </table>
+        <p class="w3-center">Each part was individually measured on a scale. The Assembled Weight is 98 grams. This difference is probably because the scale that was used did not have enough decimal points.</p>
+<h4 class="w3-center"><u>Product Bill of Materials</u></h4>
+<h4 class="w3-center"><u>Resistors</u></h4>
+<table class="center2 tb">
+    <thead>
+        <th>Board Label</th>
+        <th>Measured Resistance</th>
+        <th>Available At</th>
+        <th>Cost (non-bulk)</th>
+        <th>Notes</th>
+    </thead>
+    <tr>
+        <td>R1</td>
+        <td>10.7 Ohms</td>
+        <td><a href="https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710R7L/5280814">Digi-Key</a></td>
+        <td>$0.10 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>R2</td>
+        <td>100.1 Ohms</td>
+        <td><a href="https://www.mouser.com/ProductDetail/Panasonic/ERJ-P06F1000V?qs=sGAEpiMZZMtlubZbdhIBIKnOgWnkMCfnGCgneuNpE6M%3D">Mouser</a></td>
+        <td>$0.20 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>R3</td>
+        <td>120.6 Ohms</td>
+        <td><a href="https://www.aliexpress.com/i/2251832565009468.html?gatewayAdapt=4itemAdapt">AliExpress</a></td>
+        <td>$1.14 for 50</td>
+        <td>On the board it is labeled as a 121 Ohm resistor.</td>
+    </tr>
+    <tr>
+        <td>R4</td>
+        <td>51.5 Ohms</td>
+        <td><a href="https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SDR03EZPF51R0?qs=sGAEpiMZZMvdGkrng054t2cqbZCzJY7NAUZsBamCgTLAD4OZ9qBtGQ%3D%3D">Mouser</a></td>
+        <td>$0.17 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>R5</td>
+        <td>150.4 Ohms</td>
+        <td><a href="https://www.aliexpress.com/i/2251832692621746.html?gatewayAdapt=4itemAdapt">AliExpress</a></td>
+        <td>$1.35 for 100</td>
+        <td>On the board it is labeled as a 151 Ohm resistor.</td>
+    </tr>
+    <tr>
+        <td>R6</td>
+        <td>150.4 Ohms</td>
+        <td><a href="https://www.aliexpress.com/i/2251832692621746.html?gatewayAdapt=4itemAdapt">AliExpress</a></td>
+        <td>$1.35 for 100</td>
+        <td>On the board it is labeled as a 151 Ohm resistor.</td>
+    </tr>
+    <tr>
+        <td>R7</td>
+        <td>473 Ohms</td>
+        <td><a href="https://www.digikey.com/en/products/detail/kamaya-inc/RMC1-473JTE/17814130">Digi-Key</a></td>
+        <td>$0.02406 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>RJ1</td>
+        <td>0.5 Ohms</td>
+        <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905">Digi-Key</a></td>
+        <td>$0.10 per Unit</td>
+        <td>The Jumper Resistors are labeled as zero ohms and are labeled as RJ#. These resistors have such a low resistance that they can be considered as zero ohm resistors inside of the circuit.</td>
+    </tr>
+    <tr>
+        <td>RJ2</td>
+        <td>0.5 Ohms</td>
+        <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905">Digi-Key</a></td>
+        <td>$0.10 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>RJ3</td>
+        <td>0.5 Ohms</td>
+        <td><a href="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905">Digi-Key</a></td>
+        <td>$0.10 per Unit</td>
+        <td>None</td>
+    </tr>
+</table>
+<p class="w3-center">Total Resistor Price: $0.84 <br>*Note this assumes single resistors are purchased, but if resistors are bought in bulk the price may go lower.<br>The resistors were measured with a multimeter when they were still on the PCB and no batteries inside of the product.</p>
+<h4 class="w3-center"><u>Capacitors</u></h4>
+<table class="center2 tb">
+    <thead>
+        <th>Board Label</th>
+        <th>Farads</th>
+        <th>Available At</th>
+        <th>Cost (non-bulk)</th>
+        <th>Notes</th>
+    </thead>
+    <tr>
+        <td>C1</td>
+        <td>112.4 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/KYOCERA-AVX/12065C114JAT2A?qs=92ej8Jla8sxsxuBN6LxSug%3D%3D">Mouser</a></td>
+        <td>$0.43 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C2</td>
+        <td>47 uF</td>
+        <td><a href="https://www.digikey.com/en/products/detail/nichicon/UVZ1A470MDD1TD/4342145?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Zombie%20SKUs&utm_term=&utm_content=General&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV-ZmVbzCuSFHP0AsXXmj5z-_6GKaZ9G1MU_6JV8_l1J-NoGSPVwzJ4aAgGvEALw_wcB">Digi-Key</a></td>
+        <td>$0.34 per Unit</td>
+        <td>The label on the capcitor shows it is a 47 uF capacitor rated for 10 Volts. The capicitors C2 and C4 are the only through-hole capcitors on the PCB.</td>
+    </tr>
+    <tr>
+        <td>C3</td>
+        <td>111.9 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/KYOCERA-AVX/12065C114JAT2A?qs=92ej8Jla8sxsxuBN6LxSug%3D%3D">Mouser</a></td>
+        <td>$0.43 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C4</td>
+        <td>47 uF</td>
+        <td><a href="https://www.digikey.com/en/products/detail/nichicon/UVZ1A470MDD1TD/4342145?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Zombie%20SKUs&utm_term=&utm_content=General&gclid=Cj0KCQjw_r6hBhDdARIsAMIDhV-ZmVbzCuSFHP0AsXXmj5z-_6GKaZ9G1MU_6JV8_l1J-NoGSPVwzJ4aAgGvEALw_wcB">Digi-Key</a></td>
+        <td>$0.34 per Unit</td>
+        <td>The label on the capcitor shows it is rated for 10 Volts.</td>
+    </tr>
+    <tr>
+        <td>C5</td>
+        <td>1.29 uF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/KYOCERA-AVX/1206ZC135KAT2A?qs=wc4bptpLuMNit7t9DwE17Q%3D%3D">Mouser</a></td>
+        <td>$0.69 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C6</td>
+        <td>12.36 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/Murata-Electronics/GRM1887U1A123JA01D?qs=UOvNgVTuGCpvdoShSob0NQ%3D%3D">Mouser</a></td>
+        <td>$0.23 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C7</td>
+        <td>155.8 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R71A154JA01J?qs=sX86r5gGz4%2F00bUBLey8qQ%3D%3D">Mouser</a></td>
+        <td>$0.13 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C8</td>
+        <td>265.9 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC274KAT2A?qs=tbeAi92IGQQWEHSa1bcAGg%3D%3D">Mouser</a></td>
+        <td>$0.50 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C9</td>
+        <td>1.14 uF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/Murata-Electronics/GRM033C81A105ME05D?qs=nxZbHzLpdvdRS%252BnGVr%2Fx2Q%3D%3D">Mouser</a></td>
+        <td>$0.34 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C10</td>
+        <td>11.3 uF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/KEMET/C1210C126K8PACTU?qs=jGANiKWBgcjBWc4RalsAuQ%3D%3D">Mouser</a></td>
+        <td>$1.05 per Unit</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>C11</td>
+        <td>106.7 nF</td>
+        <td><a href="https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MSASL1LHXB5104MRNA01?qs=tlsG%2FOw5FFhZoWYPo1dviw%3D%3D">Mouser</a></td>
+        <td>$0.31 per Unit</td>
+        <td>None</td>
+    </tr>
+</table>
+<p class="w3-center">Total Capactitor Price: $4.79<br>*Again this assumes single capcitors are purchased, but if the capacitors were bought in bulk the price could reduce.<br>The capacitors were desoldered and measuered with a multimeter before being resoldered for the final assembly.</p>
+
+<h4 class="w3-center"><u>Miscellaneous</u></h4>
+
+<table class="center2 tb">
+    <thead>
+        <th>Board Label</th>
+        <th>Available At</th>
+        <th>Cost (non-bulk)</th>
+        <th>Amount</th>
+        <th>Notes</th>
+    </thead>
+    <tr>
+        <td>L1</td>
+        <td><a href="https://www.digikey.com/en/products/detail/tdk-corporation/MLZ2012N101LTD25/5286375">Digi-Key</a></td>
+        <td>$0.16 per Unit</td>
+        <td>1</td>
+        <td>The exact inductance was not measured since it was a chip inductor so the exact details are estimated.</td>
+    </tr>
+    <tr>
+        <td>LED1</td>
+        <td><a href="https://www.digikey.com/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13588739">Digi-Key</a></td>
+        <td>$0.24 per Unit</td>
+        <td>1</td>
+        <td>This is a multi-color LED that changes depending on the button pressed.</td>
+    </tr>
+    <tr>
+        <td>Speaker</td>
+        <td><a href="https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PSR-20F08S-YHQ/10638184">Digi-Keyr</a></td>
+        <td>$0.96 per Unit</td>
+        <td>1</td>
+        <td>This is not an exact speaker, but it is very similar to the one used inside of the product.</td>
+    </tr>
+    <tr>
+        <td>Plastic Parts and Screws</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>The buttons, inner plastic parts, front and back faces and screws are harder to find prices for and the plastic is most likely custom made for this product making it hard to estimate a price.</td>
+    </tr>
+    <tr>
+        <td>Rubber Button Inserts</td>
+        <td><a href="https://www.aliexpress.us/item/3256803451507106.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US">AliExpress</a></td>
+        <td>$0.04 per Unit</td>
+        <td>3</td>
+        <td>There are 3 rubber buttons adn while these are not the exact button inserts, but they are close enough to assume that the button inserts in the product are around the same price.</td>
+    </tr>
+    <tr>
+        <td>Batteries</td>
+        <td><a href="https://us.rs-online.com/product/rs-pro/7757233/70807549/">RS</a></td>
+        <td>$0.33 per Unit</td>
+        <td>3</td>
+        <td>There are 3 batteries included in the product that are 1.5V Alkaline non-rechargable batteries.</td>
+    </tr>
+</table>
+
+<p class="w3-center">Total Miscellaneous Price: $2.47</p>
+<h4 class="w3-center"><u>Processors</u></h4>
+<table class="center2 tb">
+    <thead>
+        <th>Board Label</th>
+        <th>Name</th>
+        <th>Available At</th>
+        <th>Cost (non-bulk)</th>
+        <th>Notes</th>
+    </thead>
+    <tr>
+        <td>U1</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>$1~$3 per Unit</td>
+        <td>The U1 microcontroller was under epoxy so the exact details of it are unknown. The price is an estimation looking at similar product prices.</td>
+    </tr>
+    <tr>
+        <td>U2</td>
+        <td>KH25V80066</td>
+        <td><a href="https://item.szlcsc.com/3163094.html">Shenzhen Easy E-commerce Co.</a></td>
+        <td>$0.015 per Unit</td>
+        <td>This was only found on Shenzhen Easy E-commerce Co. and this price was converted to USD so it may cahnge slightly. This was the only website that had the exact Flash Memory that was on the PCB.</td>
+    </tr>
+</table>
+
+<p class="w3-center">Total Processor Price: $1.015 - $3.015</p>
+
+<p class="w3-center">Total Price: ~ $11.12 <br>This price is using the max processor cost and non-bulk purchased parts. The plastic would also affect the price causing it to rise a little bit. Walmart is currently selling this product at around $20, but at other stores it is around $10.00. I think the product is realistically around $8.00 to make so they have about a 25% profit margin.</p>
+
+<h4 class="w3-center"><u>Processor Details</u></h4>
+<p class="w3-center w3-large">The KV25V80066 is the part that is labeled U2 on the PCB. It is a 2.3V-3.6V Serial Multi I/O CMOS Flash Memory chip. The memory can be read and written to and it has 8 pins. The pinouts and block diagram are shown below.</p>
+<img src="res\U2_Block_Diagram.jpg" alt="U2 Block Diagram" class="center">
+<img src="res\pinout.jpg" alt="U2 Pinout" class="center">
+<p class="w3-center w3-large">The CS# on the pinout is the chip select. The SO/SIO1 is the serial data output and the WP# is the Write Protection which is active low. The GND pin is ground and the VCC is the power supply. The NC means that pin has no connection and the SCLK is the clock input for the serial communication. The SI/SIO0 is the Serial Data Input pin.</p>
+<p class="w3-center w3-large"><br>U2 Datasheet: <a href="res/U2.pdf">KV25V80066</a>
+</div>
+
+<div class="w3-container" style="padding:64px 16px" id="reassembly">
+  <h3 class="w3-center">Product Reassembly</h3>
+  <p class="w3-center">To put the product back together, the battery connections had to be resoldered, and the product needed to be screwed back together. During testing of the product the spearker wires also broke and had to be resoldered to the PCB. Below are the final few images of the reconstruction after the front plastic face was screwed back together and the PCB and speaker were reinstalled into the back plastic face.</p>
+  <h4 class="w3-center">PCB Screw Insertion</h4>
+  <img src="res\vid3\IMG_0224.jpg" alt="U2 Pinout" class="center resize">
+  <h4 class="w3-center">Spinner Reinstallation</h4>
+  <img src="res\vid3\IMG_0225.jpg" alt="U2 Pinout" class="center resize">
+  <h4 class="w3-center">Two Halves Separated</h4>
+  <img src="res\vid3\IMG_0226.jpg" alt="U2 Pinout" class="center resize">
+  <h4 class="w3-center">Front and Back Face Screwed Together</h4>
+  <img src="res\vid3\IMG_0227.jpg" alt="U2 Pinout" class="center resize">
+  <h4 class="w3-center">Video of Inserting Batteries and Verifying All Three Buttons Work and Utilize the LED and Speaker</h4>
+  <video class="center" controls="controls" width="930" height="600" name="Video Name">
+    <source src="res/vid3/IMG_0228.MOV">
+  </video>
+</div>
+
+<div class="w3-container" style="padding:64px 16px" id="lessons">
+  <h3 class="w3-center">Lessons Learned</h3>
+    <p class="w3-center">This project was unlike most projects I had completed before. It was very open ended and I had to look up how to do many things to complete this project.
+                         I learned that capacitors needed tp be desoldered to be properly measured, and I learned how to use a power supply to correctly get the operational characteristics of this PCB.
+                         I learned a new PCB schematic software to represent the PCB and I learned how to follow traces on a board to reverse engineer a PCB. I learned what jumper resistors were and I learned why they were used.
+                         I learned that some PCBs are used in multiple projects or sometimes things are not implemented on the PCB even if it has the infrastructure to support it.
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
