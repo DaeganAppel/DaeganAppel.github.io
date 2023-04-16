@@ -92,9 +92,9 @@ img.resize2 {
 <div class="w3-container" style="padding:64px 16px" id="intro">
   <h3 class="w3-center">Introduction</h3>
   <img src="194735043453\Daegan.jpg" alt="Daegan" class="center resize3">
-  <p class="w3-center w3-large">My name is Daegan Appel and I am a Senior in Computer Engineering at Mississippi State University. This website is used to record my dissection project for the class
+  <p class="w3-center w3-large">My name is Daegan Appel and I am a Senior in Computer Engineering at Mississippi State University. This website is used to record my dissection project for Embedded Systems.
                                 I chose to dissect a Fisher-Price Laugh & Learn Stream & Learn remote because it is produced by the 3rd largest toy manufactuerer in children's electronics. The remote is battery
-                                powered allowing for the reasselmby verification to not have to be plugged into any external power sources. It features 20+ songs/sounds to teach children the alphabet, colors, and counting.</p>
+                                powered, which means that during the reassembly verification the toy does to not have to be plugged into any external power sources. According to the box it features 20+ songs/sounds to teach children the alphabet, colors, and counting.</p>
 </div>
 
 <!-- Team Section -->
@@ -102,7 +102,7 @@ img.resize2 {
   <h3 class="w3-center">Product Market and Retail Info</h3>
   <h4 class="w3-center"><u>Product History</u></h4>
   <p class="w3-center w3-large">Fisher Price is a company that sells products marked towards children, usually educational toys. Fisher Price was created by Herman Fisher and Irving Price in 1930.
-                                They are founded on the prnciples that they created good quality products that are durable and would be good for children to play with. They continued to create children's electronics and in
+                                They are founded on the principles that they created good quality products that are durable and would be good for children to play with. They continued to create children's electronics and in
                                 they have become one of the largest electronics manufactureres for young children. The Fisher-Price Laugh & Learn Stream & Learn Remote was created to help children learn the basics of counting, the ABCs, and colors.
                                 It has a few mechanical aspects to help children with their motor skills as well.</p>
 
@@ -118,7 +118,7 @@ img.resize2 {
   </p>
 
   <h4 class="w3-center"><u>Alternative Products</u></h4>
-  <p class="w3-center w3-large"> Fisher-Price sells multile remote control products that should be considered as altenatives to this prodcut. The other similar items are the following: <br>1:  <a href="https://shop.mattel.com/products/fisher-price-laugh-learn-puppys-remote-cmw48">Fisher-Price Laugh & Learn Puppy's Remote With Light-Up Screen</a>
+  <p class="w3-center w3-large"> Fisher-Price sells multiple remote control products that should be considered as alternatives to this product. The other similar items are the following: <br>1:  <a href="https://shop.mattel.com/products/fisher-price-laugh-learn-puppys-remote-cmw48">Fisher-Price Laugh & Learn Puppy's Remote With Light-Up Screen</a>
   <br>2:  <a href="https://www.walmart.com/ip/Fisher-Price-Sis-Pretend-TV-Remote-Baby-Toy-with-Lights-Music-and-Learning-Songs-Fine-Motor-Toy/46239158?wmlspartner=wlpa&selectedSellerId=0&wl13=5703&adid=2222222223746239158_143191300943_19306515553&wl0=&wl1=g&wl2=c&wl3=641918138095&wl4=aud-430887228898:pla-838710496319&wl5=9012726&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=46239158&veh=sem&gclid=Cj0KCQjw2cWgBhDYARIsALggUhpAdn_8NJ2Y0Xk-qV0DRRXVj46wBkZ279y-DD1tif-bc4CAMy2eLgEaApYjEALw_wcB">Fisher-Price Sis’ Pretend TV Remote Baby Toy with Lights Music and Learning Songs</a>
   <br>3:  <a href="https://www.walmart.com/ip/Fisher-Price-Click-N-Learn-Remote/19593758">Fisher-Price Click 'N Learn Remote</a>
   <br><br>
@@ -168,18 +168,18 @@ img.resize2 {
   <h4 class="w3-center">PCB and Speaker Back</h4>
   <img src="194735043453\IMG_0155.JPG" alt="Product - Kids Remote" class="center resize">
   <h4 class="w3-center"><u>Dissassembly Notes</u></h4>
-  <p class="w3-center w3-large">The pictures above show the disassembly of the product, which is fairly simple. Most of the parts come apart by unscrewing things, but when the PCB needed to be removed from the back plate teh B+ adn B- terminals on the PCB had to be desoldered from the integrated battery pack. Additionally, the platic switch from the back plate that was removed is an unused switch. It seems to have solder traces so maybe at one point it was used, but in this version of the product it has no use and the button cannot be pressed.</p>
+  <p class="w3-center w3-large">The pictures above show the disassembly of the product, which is fairly simple. Most of the parts come apart by unscrewing things, but when the PCB needed to be removed from the back plate the B+ and B- terminals on the PCB had to be desoldered from the integrated battery pack. Additionally, the plastic switch from the back plate that was removed is an unused switch. It seems to have solder traces so maybe at one point it was used, but in this version of the product it has no use and the button cannot be pressed.</p>
 </div>
 
 <div class="w3-container" style="padding:64px 16px" id="operation">
   <h3 class="w3-center">Product Operation</h3>
-  <h4 class="w3-center">Flow Diagram for Total Operation of Product</h4>
+  <h4 class="w3-center">Flow Diagram for Total Operation of the Product</h4>
   <img src="194735043453\es4.JPG" alt="Product - Kids Remote" class="resize2">
   <p class="w3-center w3-large">The Flow Chart above details the workings of the entire product. There are 3 buttons that affect the output of the product. The product is in a sleep mode until a button is pressed. Each of the
                                 three buttons link to a separate Finite State Machine with four options that rotate in order. After a button is pressed the next time the button is pressed it plays the next associated voiceline
                                 that has a specific LED blinking pattern as well. The led blinks in multiple colors depending on the voiceline playing.</p>
 <h4 class="w3-center">Human Machine Interfaces</h4>
-<p class="w3-center w3-large">There are three buttons that can be pressed as shown in the videos below. There are only 12 differnt sounds that I got to play from the remote even though the box states 20+. This may be due to the unused back switch or there may be rare sopunds. I personally do not believe there are rare sounds, becasue the buttons were tested thoroughly and only 12 sounds occured. The other human-machine interface are the three mechanical toys. The blue switch, red spinner, adn green spinner all move, but do not affect the electronic outcomes at all.</p>
+<p class="w3-center w3-large">There are three buttons that can be pressed as shown in the videos below. There are only 12 differnt sounds that I got to play from the remote even though the box states 20+. This may be due to the unused back switch or there may be rare sounds. I personally do not believe there are rare sounds, becasue the buttons were tested thoroughly and only 12 sounds occurred. The other human-machine interface are the three mechanical toys. The blue switch, red spinner, and green spinner all move, but do not affect the electronic outcomes at all.</p>
 <h4 class="w3-center"><u>ABC Button Test Videos</u></h4>
   <video class="center" controls="controls" width="930" height="600" name="Video Name">
     <source src="194735043453/vid/IMG_0164.MOV">
@@ -248,10 +248,10 @@ img.resize2 {
 <h3 class="w3-center">Product Analysis</h3>
 <h4 class="w3-center"><u>High Level Block Diagram</u></h4>
 <img src="194735043453\vid2\test.PNG" alt="Product - Kids Remote" class="center resize">
-<p class="w3-center w3-large">The high level diagram shows the main processor is U1, which interacts with U2 the Flash Memory. It reads from the memoryu and uses a clock signal. The LED and speaker will change their outputs according to the signals sent from U1 and U1 receives inputs from the three buttons.</p>
+<p class="w3-center w3-large">The high level diagram shows the main processor is U1, which interacts with U2 the Flash Memory. It reads from the memory and uses a clock signal. The LED and speaker will change their outputs according to the signals sent from U1 and U1 receives inputs from the three buttons.</p>
 <h4 class="w3-center"><u>Detailed Schematic</u></h4>
 <img src="194735043453\schem5.JPG" alt="Product - Kids Remote" class="center3">
-<p class="w3-center w3-large">This is the detailed schematic made in Kicad. Custom footprints were made for U1 adn U2 inside of Kicad. The exact number of pins needed for U1 is unknown since it is under epoxy, but since 23 pins are used it can be asssumed that it at least has 24 pins. There are some capacitor loops that only connect to U1 it seems. Additionaly, there are many traces that go to the unused switch 4 on the PCB.</p>
+<p class="w3-center w3-large">This is the detailed schematic made in Kicad. Custom footprints were made for U1 and U2 inside of Kicad. The exact number of pins needed for U1 is unknown since it is under epoxy, but since 23 pins are used it can be asssumed that it at least has 24 pins. There are some capacitor loops that seem to only connect to U1, and they may be used to set certain pins to correct values. Additionaly, there are many traces that go to the unused switch 4 on the PCB.</p>
 <h4 class="w3-center"><u>Operational Values</u></h4>
 <table class="center2 tb">
             <thead>
@@ -287,17 +287,17 @@ img.resize2 {
                 <td>0.0000425 - 0.0002202 kWh </td>
                 <td>0.0000425 kWh</td>
                 <td>0.0002202 kWh</td>
-                <td>While product is asleep there is less pwoer consumned then when the buttons are pressed.</td>
+                <td>While product is asleep there is less power consumned then when the buttons are pressed.</td>
             </tr>
             <tr>
                 <td>Battery Lifetime</td>
                 <td>8 - 20 Hours</td>
                 <td>N/A</td>
                 <td>N/A</td>
-                <td>If the buttons are constantly being used the device will lose their charge quicker.</td>
+                <td>If the buttons are constantly being used the device will lose its charge quicker.</td>
             </tr>
 </table>
-<p class="w3-center w3-large">This was tested by first seeing the values when the product was powered and then no buttons were pressed and then comparing it to the values when the buttons were pressed, while still being powered by the batteries. Then a DC power supply was used in place of the batteries to test the lower voltage and the current when the buttons were and were not pressed. The lower voltage power did result in a quieter sound from the speaker and the LED was dimmed. The Serial Clock Frequency was measured on an oscilloscope adn then the power consumption was calculated. The Battery Lifetime was determined by comparing it to similar products.</p>
+<p class="w3-center w3-large">This was tested by first seeing the values when the product was powered and no buttons were pressed and then comparing it to the values when the buttons were pressed, while still being powered by the batteries. Then a DC power supply was used in place of the batteries to test the lower voltage and the current when the buttons were and were not pressed. The lower voltage power did result in a quieter sound from the speaker and the LED was dimmed. The Serial Clock Frequency was measured on an oscilloscope and then the power consumption was calculated. The Battery Lifetime was determined by comparing it to similar products.</p>
 <h4 class="w3-center"><u>Product Weight Breakdown</u></h4>
 <table class="center2 tb">
             <thead>
@@ -614,7 +614,7 @@ img.resize2 {
         <td><a href="https://www.aliexpress.us/item/3256803451507106.html?gatewayAdapt=glo2usa4itemAdapt&_randl_shipto=US">AliExpress</a></td>
         <td>$0.04 per Unit</td>
         <td>3</td>
-        <td>There are 3 rubber buttons adn while these are not the exact button inserts, but they are close enough to assume that the button inserts in the product are around the same price.</td>
+        <td>There are 3 rubber buttons and while these are not the exact button inserts, they are close enough to assume that the button inserts in the product are around the same price.</td>
     </tr>
     <tr>
         <td>Batteries</td>
@@ -647,7 +647,7 @@ img.resize2 {
         <td>KH25V80066</td>
         <td><a href="https://item.szlcsc.com/3163094.html">Shenzhen Easy E-commerce Co.</a></td>
         <td>$0.015 per Unit</td>
-        <td>This was only found on Shenzhen Easy E-commerce Co. and this price was converted to USD so it may cahnge slightly. This was the only website that had the exact Flash Memory that was on the PCB.</td>
+        <td>This was only found on Shenzhen Easy E-commerce Co. and this price was converted to USD so it may change slightly. This was the only website that had the exact Flash Memory that was on the PCB.</td>
     </tr>
 </table>
 
@@ -683,7 +683,7 @@ img.resize2 {
 <div class="w3-container" style="padding:64px 16px" id="lessons">
   <h3 class="w3-center">Lessons Learned</h3>
     <p class="w3-center">This project was unlike most projects I had completed before. It was very open ended and I had to look up how to do many things to complete this project.
-                         I learned that capacitors needed tp be desoldered to be properly measured, and I learned how to use a power supply to correctly get the operational characteristics of this PCB.
+                         I learned that capacitors needed to be desoldered to be properly measured, and I learned how to use a power supply to correctly get the operational characteristics of this PCB.
                          I learned a new PCB schematic software to represent the PCB and I learned how to follow traces on a board to reverse engineer a PCB. I learned what jumper resistors were and I learned why they were used.
                          I learned that some PCBs are used in multiple projects or sometimes things are not implemented on the PCB even if it has the infrastructure to support it.
 </div>
